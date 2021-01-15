@@ -1,14 +1,14 @@
 {
-  "students" : {
+  "students" : [
             {
-              'name': "Scott",
-              'id': 1,
-              'result': 'pass',
+              "name": "Scott",
+              "id": 1,
+              "result": "pass"
             },
             {
-              'name': "Mark",
-              'id': 2,
-              'result': 'fail',
-            },
-              }
+              "name": "Mark",
+              "id": 2,
+              "result": "fail"
+            }
+          ]
 }

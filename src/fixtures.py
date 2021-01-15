@@ -1,7 +1,7 @@
 import json
 
 
-Class StudentDB(self):
+class StudentDB():
     def __init__(self):
         self.__data = None
 
@@ -13,3 +13,6 @@ Class StudentDB(self):
         for student in self.__data['students']:
             if student['name'] == name:
                 return student
+
+    def close(self):
+        pass
