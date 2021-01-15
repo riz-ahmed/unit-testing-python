@@ -4,6 +4,11 @@ Working on unit testing using various frameworks as well as self developed testi
 # math_func
 tests unit test cases for the code structure using pytest decorator functions
 
+# setup and teardown functions
+files {fixtures.py, test_fixtures.py and data.json}
+used to initialise test data (initialising database connections) for multiple test cases
+
 # fixtures
-tests data from the json database, here test cases are derived to tests the data storage and retrieval form the database
- 
+files {fixtures0.py, test_fixtures0.py and data.json}
+
+used in the same sense as setup and teardown functions using pytest native fixture decorators
